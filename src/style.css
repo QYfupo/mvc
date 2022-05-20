@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*::after {
+    box-sizing: border-box;
+}
+
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+    /*因为有个滚动条的宽度，所有的滚动条大概14-19的宽度*/
+}
+
+body>#page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#page>section {
+    border: 1px solid red;
+    width: 50vw;
+    height: 50vh;
+}
+
+*ol li {
+    list-style: none;
+}

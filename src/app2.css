@@ -1,0 +1,25 @@
+#app2 .tabBar {
+    display: flex;
+}
+
+#app2 .tabBar>li {
+    border: 1px solid green;
+    width: 50%;
+}
+
+#app2 .tabBar>li.selected {
+    background: yellow;
+}
+
+li::marker {
+    content: '';
+}
+
+#app2 .tabContent>li {
+    display: none;
+}
+
+#app2 .tabContent>li.active {
+    display: block;
+    color: brown;
+}

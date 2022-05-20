@@ -1,0 +1,12 @@
+#app3 #squre {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+#app3 #squre.active {
+    transform: translateX(20vw);
+    background-color: blueviolet;
+    transition: transform 1s;
+}
